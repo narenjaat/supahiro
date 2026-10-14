@@ -3,6 +3,8 @@
 A small React Native (Expo) app built for the Zuvomo React Native Developer take-home.
 It lists characters from the public [Rick and Morty API](https://rickandmortyapi.com/), opens a detail screen on tap, and handles loading, error and pull-to-refresh states.
 
+**Live web demo:** https://narenjaat.github.io/supahiro/ (web export; pull-to-refresh is native-only, so try that on a device or simulator)
+
 ![List screen](docs/list.png)
 
 ## Features
@@ -30,6 +32,8 @@ Then press `i` for iOS Simulator, `a` for Android emulator, or scan the QR code 
 npm test           # jest – API client tests
 npm run typecheck  # tsc --noEmit
 ```
+
+Web deploy (GitHub Pages): `npx expo export --platform web`, then push the `dist` folder to the `gh-pages` branch.
 
 ## Structure
 
